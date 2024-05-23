@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jump Game</title>
+  <title>Tic Tac Toe</title>
   <link rel="stylesheet" href="tic_tac_toe.css">
 </head>
 <body>
   
-  <h1>Tic Tac Toe</h1>
+  <h1 class="heading">Tic Tac Toe</h1>
   <div id="board">
       <div class="cell" id="cell0" onclick="cellClicked(0)"></div>
       <div class="cell" id="cell1" onclick="cellClicked(1)"></div>
@@ -20,8 +20,8 @@
       <div class="cell" id="cell7" onclick="cellClicked(7)"></div>
       <div class="cell" id="cell8" onclick="cellClicked(8)"></div>
   </div>
-  <div id="status">M</div>
-  <button onclick="reset()">Reset</button>
+  <div id="status">1 st trun is player 'X'</div>
+  <button class="btn" onclick="reset()">Reset</button>
 
   <script src="tic_tac_toe.js"></script>
 </body>

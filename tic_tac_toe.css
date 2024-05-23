@@ -1,7 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+
+}
 #board {
   display: grid;
   grid-template-columns: repeat(3, 100px);
   grid-template-rows: repeat(3, 100px);
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  border: 5px solid red;
 }
 
 .cell {
@@ -16,6 +33,21 @@
 }
 
 #status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 20px;
   font-weight: bold;
+  font-size: 20px;
+}
+
+.btn{
+  height: 40px;
+  width: 100px;
+  margin-left: 47%;
+  margin-top: 10px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
 }
