@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body{
+  background-color: aqua;
+}
+
 .heading{
   display: flex;
   align-items: center;
@@ -17,8 +21,7 @@
   grid-template-rows: repeat(3, 100px);
   align-items: center;
   justify-content: center;
-  background-color: aqua;
-  border: 5px solid red;
+  
 }
 
 .cell {
@@ -30,6 +33,7 @@
   align-items: center;
   font-size: 36px;
   cursor: pointer;
+  background-color: rgb(243, 14, 60);
 }
 
 #status {
