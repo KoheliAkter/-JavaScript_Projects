@@ -15,13 +15,13 @@ body{
   margin-bottom: 20px;
 
 }
+
 #board {
   display: grid;
   grid-template-columns: repeat(3, 100px);
   grid-template-rows: repeat(3, 100px);
   align-items: center;
   justify-content: center;
-  
 }
 
 .cell {
@@ -53,5 +53,10 @@ body{
   background-color: green;
   border: none;
   border-radius: 5px;
+  color: white;
+}
+
+.btn:hover{
+  background-color: blue;
   color: white;
 }
